@@ -53,6 +53,9 @@ the zero-basin fix, and usage.
 | `src/gretchen.py` | **Gretchen** — train ternary weights via a polynomial well (no rounding, no STE) |
 | `GRETCHEN.md` | how Gretchen works + the zero-basin fix |
 | `EGYPTIAN.md` | the multiply-free / exact-additive rhyme with ancient Egyptian arithmetic |
+| `src/fastice_kernel.c` | **fastICE** — real SIMD quinary (5-level) multiply-free kernel, beats OpenBLAS ~2.85-2.9x |
+| `src/fastice_trainer.py` | full training step (forward+backward+Adam) wired through fastICE |
+| `FASTICE.md` | fastICE in full — why a naive version loses, why the real SIMD version wins, a real bug found+fixed |
 | `README.md` / `LICENSE` | this / MIT |
 
 Run the Python check:
