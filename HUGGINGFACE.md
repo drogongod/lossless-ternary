@@ -24,9 +24,9 @@ The case: a ternary model's matmul is compute-light *and* memory-light, so it be
 hand-written assembly**, not a GPU built for floating-point multiplies. (Cf. Microsoft's `bitnet.cpp`.) In the
 spirit of ancient Egyptian arithmetic — multiply by shift-and-add, represent exactly by addition, never round.
 
-**Code, tests, and full write-ups:** https://github.com/<your-username>/lossless-ternary
+**Code, tests, and full write-ups:** https://github.com/drogongod/lossless-ternary
 
-Author: **Jonathan David Wint**. License: MIT.
+Author: **Jonathan David Wint**. License: [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (free for noncommercial use; commercial use requires a separate license — contact the author).
 
 > Note: this repo is a *method + toolkit* (code), not trained weights. A demo ternary model card can be added here
 > once a Gretchen-trained checkpoint is released.

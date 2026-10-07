@@ -56,7 +56,7 @@ the zero-basin fix, and usage.
 | `src/fastice_kernel.c` | **fastICE** — real SIMD quinary (5-level) multiply-free kernel, beats OpenBLAS ~2.85-2.9x |
 | `src/fastice_trainer.py` | full training step (forward+backward+Adam) wired through fastICE |
 | `FASTICE.md` | fastICE in full — why a naive version loses, why the real SIMD version wins, a real bug found+fixed |
-| `README.md` / `LICENSE` | this / MIT |
+| `README.md` / `LICENSE` | this / PolyForm Noncommercial 1.0.0 |
 
 Run the Python check:
 ```
@@ -79,4 +79,6 @@ want the last drop of speed. It runs on hardware you own, owes nothing to anyone
 
 ## License
 
-MIT — do what you like with it.
+[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) — free for
+any noncommercial purpose (personal, research, nonprofit, education, government). Commercial use is
+not covered by this license — contact the author to arrange a commercial license.

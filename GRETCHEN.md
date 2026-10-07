@@ -61,4 +61,4 @@ for step, (x, y) in enumerate(loader):
         print(basin_report(model))   # -> {'std':.., 'zero%':.., 'neg1%':.., 'pos1%':..}
 ```
 
-Author: **Jonathan David Wint**.  License: MIT.
+Author: **Jonathan David Wint**.  License: [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (free for noncommercial use; commercial use requires a separate license — contact the author).

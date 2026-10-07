@@ -32,7 +32,7 @@ framework-free package* and the concrete case for **CPU/assembly sovereignty**: 
 vendor's GPU, or a heavy framework to run low-bit models. Portable C runs everywhere; the hot kernel drops to
 SIMD/NASM when you want the last of the speed.
 
-Repo (MIT): `[link]`
+Repo (free for noncommercial use, PolyForm Noncommercial 1.0.0): https://github.com/drogongod/lossless-ternary
 
 Genuine question for the people already doing low-bit CPU inference: is anyone working on *lossless* (not
 lossy-quant) low-bit representations + hand-written kernels, and what are the pitfalls I should expect? What am
